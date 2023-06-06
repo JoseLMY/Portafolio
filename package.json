@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Solo practicando se adquiere experiencia, por eso dejo mis conocimientos plasmados en este proyecto personal... Mi portafolio 🐱‍👤.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLMY/Portafolio.git"
+  },
+  "author": "Jose Luis Minota <jose\u001b@@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseLMY/Portafolio/issues"
+  },
+  "homepage": "https://github.com/JoseLMY/Portafolio#readme"
+}
