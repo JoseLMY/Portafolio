@@ -77,6 +77,7 @@ function Tecnologias() {
                     </div>
                     <div className='pro-2'>
                         <img className='proyectos' src={toDo} alt="Lista de tareas" />
+                        <a href='https://creator-tasks.vercel.app/' target='_blanck'>Probar</a>
                         <a href="https://github.com/JoseLMY/To-do-React.js" target='_blanck'>Ver código</a>
                     </div>
                 </div>
