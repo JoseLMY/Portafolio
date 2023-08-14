@@ -68,14 +68,14 @@ span{
     transform: scale(1.08);
     color: antiquewhite;
 }
-.pro-1, .pro-2{
+.pro-1, .pro-2, .pro-3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 36px;
 }
-.pro-1 a, .pro-2 a{
+.pro-1 a, .pro-2 a, .pro-3 a{
     text-decoration: none;
     color: #95acce;
     font-size: 20px;
@@ -94,5 +94,9 @@ span{
 }
 .pro-2 a:hover{
     background-color: rgb(2, 186, 196);
+    color: black;
+}
+.pro-3 a:hover{
+    background-color: rgb(196, 2, 2);
     color: black;
 }

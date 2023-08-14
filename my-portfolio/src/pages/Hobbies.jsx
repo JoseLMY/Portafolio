@@ -17,15 +17,15 @@ function Hobbies() {
                 <div className='container'>
                     <div className='hobbie-1'>
                         <div className='hobbieName'>
-                            <h2>Ciclomontañismo</h2>
+                            <h2>Mountain biking</h2>
                         </div>
-                        <img src={hobbie1} alt="ciclomontañismo"/>
+                        <img src={hobbie1} alt="Mountain biking"/>
                     </div>
                     <div className="hobbie-4">
                         <div className='hobbieName'>
-                            <h2>Programar</h2>
+                            <h2>Programming</h2>
                         </div>
-                        <img src={hobbie4} alt="Programar"/>
+                        <img src={hobbie4} alt="Programming"/>
                     </div>
                     <div className="hobbie-2">
                         <div className='hobbieName'>
@@ -35,15 +35,15 @@ function Hobbies() {
                     </div>
                     <div className="hobbie-3">
                         <div className='hobbieName'>
-                            <h2>Leer</h2>
+                            <h2>Read</h2>
                         </div>
-                        <img src={hobbie3} alt="Leer"/>
+                        <img src={hobbie3} alt="Read"/>
                     </div>
                     <div className="hobbie-5">
                         <div className='hobbieName'>
-                            <h2>Dibujar</h2>
+                            <h2>Draw</h2>
                         </div>
-                        <img src={hobbie5} alt="Dibujar"/>
+                        <img src={hobbie5} alt="Draw"/>
                     </div>
                 </div>
             </div>

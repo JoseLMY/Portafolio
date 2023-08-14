@@ -3,10 +3,14 @@
 }
 .nav-bar{
     color: white;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.932);
     width: 100%;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
+    box-shadow: 0 0 64px rgba(0, 153, 255, 0.212);
+}
+.focus{
+    background-color: aliceblue;
 }
 .mas{
     margin-right: 20px;
@@ -54,7 +58,9 @@
     color: rgb(0, 17, 100);
     background: #ffffff;
     box-shadow: 1px 1px 32px rgba(255, 255, 255, 0.374);
-
+}
+.lista a:focus-within{
+    background-color: aliceblue;
 }
 @media (max-width: 720px){
     .view{

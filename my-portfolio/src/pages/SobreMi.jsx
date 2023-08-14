@@ -14,13 +14,13 @@ function SobreMi() {
             <div className='aboutMeContainer'>
 
                 <div className='subtitleContainer'>
-                    <p className='subtitle-1'>Sobre mí</p>
+                    <p className='subtitle-1'>About me</p>
                 </div>
                 <div className='acer-1-container'>
                     <div className='acer-1'>
                         <p> 
-                            Hola, soy <b>Jose Luis Minota</b> - <strong><span> Front-End Developer</span></strong>. <br />
-                            Tengo conocimiento en desarrollo web, especialmente en la parte del <strong>Front-End</strong>, manejando tecnologías como <span> JavaScript, React.js, HTML5, CSS3 y Next.js.</span>
+                            Hey, i'm <b>Jose Luis Minota</b> - <strong><span> Front-End Developer</span></strong>. <br />
+                            I have Knowledge in web development, especially  in the <strong>Front-End</strong> part, managing technologies like <span> JavaScript, React.js, HTML5, CSS3 y Next.js.</span>
                         </p>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ function SobreMi() {
                 <div className='acer-2-container'>
                     <div className='acer-2'>
                         <p>
-                            Desde muy joven supe que la tecnología era una de las cosas que más me apasionaban, por eso desde esa edad empecé a adentrarme en este mundo, culminando diferentes cursos certificados con <b>Platzi.</b> <br />
-                            Algunos de ellos son:
+                            From a very young age I knew that technology was one of the things that I was most passionate about, so from that age I began to delve into this world, completing different certified courses with <b>Platzi.</b> <br />
+                            Some of them are:
                         </p>
                     </div>
                 </div>
@@ -42,14 +42,14 @@ function SobreMi() {
                 </div>
                 <div className='masCertificados'>
                     <p>
-                        <b>Estos son solo tres, en mi perfil de <a href="https://www.linkedin.com/in/jose-luis-minota-yacue-685741248/" target="_blank" rel="noreferrer">Linkedin</a> hay más ♛.</b>
+                        <b>These are only three, in my profile of <a href="https://www.linkedin.com/in/jose-luis-minota-yacue-685741248/" target="_blank" rel="noreferrer">Linkedin</a> there is more ♛.</b>
                     </p>
                 </div>
 
                 <div className='acer-2-container tecnologo'>
                     <div className='acer-2'>
                         <p>
-                            No solo me quedé con las certificaciones, sino que quise ir aún mas alla, es por eso que en este momento me encuentro realizando un <b>tecnólogo en análisis y desarrollo de software</b> en el SENA (Servico Nacional de Aprendizaje).
+                        Not only did I stay with the certifications, but I wanted to go even further, which is why I am currently working as a <b>software analysis and development technologist</b> at SENA (National Learning Service).
                         </p>
                     </div>
                 </div>
