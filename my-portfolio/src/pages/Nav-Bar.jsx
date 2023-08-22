@@ -28,7 +28,7 @@ function NavBar(){
                             <a href="/contacto" className='contact-me'>Contact me</a>
                         </li>
                     </ul>
-                    <p className='view mas' onClick={handleToggle}>MAS</p>
+                    <p className='view mas' onClick={handleToggle}>- VIEW MORE -</p>
             </nav>
             {state && <Datos />}
         </>

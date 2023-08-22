@@ -7,19 +7,19 @@ function Datos() {
             <div className='datosContainerMobile view'>
                 <ul className='listaMobile'>
                     <li>
-                        <a className='inicio' href="/">Inicio</a>
+                        <a className='inicio' href="/">Home.</a>
                     </li>
                     <li>
-                        <a className='sobreMi'href="/sobre-mi">Sobre mi</a>
+                        <a className='sobreMi'href="/sobre-mi">About Me.</a>
                     </li>
                     <li>
-                        <a className='tecnologiasMobile'href="/tecnologias">Tecnologías</a>
+                        <a className='tecnologiasMobile'href="/tecnologias">Technologies.</a>
                     </li>
                     <li>
-                        <a className='hobbies'href="/hobbies">Hobbies</a>
+                        <a className='hobbies'href="/hobbies">Hobbies.</a>
                     </li>
                     <li>
-                        <a className='contacto'href="/contacto">Contactame</a>
+                        <a className='contacto'href="/contacto">Contact me.</a>
                     </li>
                 </ul>
             </div>

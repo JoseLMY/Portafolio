@@ -6,62 +6,65 @@
     display: flex;
     justify-content: left;
     margin: 0;
-    padding-top: 42px;
+    padding-top: 60px;
 }
-span{
-    color: #D9D9D9;
+.spanSobreMi{
+    color: #b7e2ff;
     font-weight: bold;
+    text-shadow: 0 0 16px rgb(24, 207, 253);
 }
-.subtitle-1{ 
-    color: #2b314d;
+.subtitle-1{
+    border: 1px solid #071ea300;
+    color: rgba(255, 255, 255, 0.719);
     margin: 32px 0 0 64px;
     font-size: 36px;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: var(--font-sub-title);
     width: 220px;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #2b314d;
+    transition: all 0.5s;
+    border-bottom: 1px solid gray;
 }
 .acer-1-container{
     display: flex;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-paragraph);
     margin: 32px 0 0 10%;
 }
 .acer-1{
-    color: #737373;
-    background: #070915a6;
+    color: #ffffff;
     width: calc(100% - 10%);
     max-width: calc(100vw - 10px);
     padding: 16px;
     box-sizing: border-box;
-
+    
     transition: all 0.4s;
     cursor: pointer;
+}
+.acer-1 p{
+    margin: 0;
+    font-size: 26px;
 }
 
 .acer-2-container{
     display: flex;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-paragraph);
     margin: 32px 0 0 5%;
 }
 .acer-2{
-    color: #737373;
-    background: #565a6b19;
+    background: #070915a6;
     width: calc(100% - 5%);
     max-width: calc(100vw - 10px);
     padding: 14px;
     box-sizing: border-box;
+    border: 1px solid #071ea3a6;
+    box-shadow: 0 0 12px rgba(122, 50, 190, 0.37);
 
     transition: all 0.5s;
 }
-.acer-2:hover{
-    background: #070915a6;
-    cursor: pointer;
-
-}
-.acer-2 p, .acer-1 p{
+.acer-2 p{
     margin: 0;
-    font-size: 26px;
+    font-size: 20px;
+    color: white;
 }
 .proyectosContainer,
 .certificadosContainer {
@@ -73,13 +76,14 @@ span{
 }
 .certificados, .proyectos{
     max-width: 360px;
-    border-radius: 16px;
+    border-radius: 4px;
     margin: 32px;
     transition: all 0.5s;
     cursor: pointer;
 }
 .certificados:hover, .proyectos:hover{
-    transform: scale(1.08);
+    transform: scale(1.1);
+    border-radius: 24px;
 }
 .masCertificados{
     color: white;
@@ -98,4 +102,40 @@ span{
 }
 .tecnologo{
     margin-bottom: 32px;
+}
+
+@media(max-width: 720px){
+    .subtitle-1{
+        border: 0;
+        box-shadow: 0 0 12px rgba(122, 50, 190, 0);
+
+        color: #2b314d;
+        margin: 32px 0 64px 64px;
+        font-size: 36px;
+        font-family: var(--font-sub-title);
+        padding-top: 42px;
+        border-bottom: 1px solid #2b314d;
+        letter-spacing: 4px;
+    }
+    .acer-1-container{
+        margin: 0;
+    }
+    .acer-1{
+        margin-top: 48px;
+        background-color: black;
+        width: 100%;
+        color: aliceblue;
+    }
+    .acer-1 p{
+        font-size: 22px;
+    }
+    .acer-2 {
+        background: #0f1329a6;  
+        border: 1px solid #071ea3c9;
+        box-shadow: 0 0 12px rgba(122, 50, 190, 0.959);
+    }
+    .certificados:hover, .proyectos:hover{
+        transform: scale(1);
+        border-radius: 0;
+    }
 }

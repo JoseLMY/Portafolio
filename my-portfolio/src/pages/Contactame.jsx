@@ -18,7 +18,7 @@ function Contactame(){
             console.log(error.text);
         });
     }
- 
+
     return(
         <>
             <div className="formContainer">
@@ -40,8 +40,8 @@ function Contactame(){
                 </form>
             </div>
         </>
-        )
-    }
+    )
+}
 
 
 export {Contactame}

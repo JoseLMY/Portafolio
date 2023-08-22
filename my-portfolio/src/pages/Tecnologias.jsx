@@ -10,6 +10,7 @@ import iconHTML from "../assets/iconHTML.png"
 import iconCSS from "../assets/iconCSS.png";
 import iconJS from "../assets/iconJs.png"
 import iconReact from "../assets/iconReact.png"
+import productions from "../assets/349producciones.png"
 
 function Tecnologias() {
     return (
@@ -27,7 +28,7 @@ function Tecnologias() {
                             </h2>
                         </div>
                         <p>
-                            This technology <span>was the first one I learned</span>, I could say that it has been <span>since my beginnings in 2019</span>.
+                            This technology <span className='spanTechnologies'>was the first one I learned</span>, I could say that it has been <span className='spanTechnologies'>since my beginnings in 2019</span>.
                         </p>
                     </div>
 
@@ -51,7 +52,7 @@ function Tecnologias() {
                             </h2>
                         </div>
                         <p>
-                        Since I entered this world, <span>it has been the language I have used the most</span> in the projects I have created, I could say that I am fluent in this particular language, because <span>I also know Python and Java</span >.
+                        Since I entered this world, <span className='spanTechnologies'>it has been the language I have used the most</span> in the projects I have created, I could say that I am fluent in this particular language, because <span className='spanTechnologies'>I also know Python and Java</span >.
                         </p>
                     </div>
                     <div className='tecnologia react'>
@@ -69,24 +70,29 @@ function Tecnologias() {
             </div>
 
             <div className='subtitleContainer'>
-                    <p className='subtitle-1'>Projects</p>
+                    <p className='subtitle-2'>Projects</p>
+            </div>
+            <div className='proyectosContainer'>
+                <div className='pro-4'>
+                    <img className='proyectos' src={productions} alt="Landing page of tattoo's" />
+                    <a href='https://349-producciones.vercel.app/' target='_blanck'>Test</a>
+                    <a href="https://github.com/JoseLMY/internship-projects/tree/main/shop" target='_blanck'>See Code</a>
                 </div>
-                <div className='proyectosContainer'>
-                    <div className='pro-1'>
-                        <img className='proyectos' src={juego} alt="Juego multijugados" />
-                        <a href='https://github.com/JoseLMY/Juego-Multijugador' target='_black'>See Code</a>
-                    </div>
-                    <div className='pro-2'>
-                        <img className='proyectos' src={toDo} alt="Lista de tareas" />
-                        <a href='https://creator-tasks.vercel.app/' target='_blanck'>Test</a>
-                        <a href="https://github.com/JoseLMY/To-do-React.js" target='_blanck'>See Code</a>
-                    </div>
-                    <div className='pro-3'>
-                        <img className='proyectos' src={landingTattoo} alt="Landing page of tattoo's" />
-                        <a href='https://tattoo-qh38l6b1w-joselmy.vercel.app/' target='_blanck'>Test</a>
-                        <a href="https://github.com/JoseLMY/internship-projects/tree/main/tattoo/src" target='_blanck'>See Code</a>
-                    </div>
+                <div className='pro-2'>
+                    <img className='proyectos' src={toDo} alt="Lista de tareas" />
+                    <a href='https://creator-tasks.vercel.app/' target='_blanck'>Test</a>
+                    <a href="https://github.com/JoseLMY/To-do-React.js" target='_blanck'>See Code</a>
                 </div>
+                <div className='pro-3'>
+                    <img className='proyectos' src={landingTattoo} alt="Landing page of tattoo's" />
+                    <a href='https://tattoo-qh38l6b1w-joselmy.vercel.app/' target='_blanck'>Test</a>
+                    <a href="https://github.com/JoseLMY/internship-projects/tree/main/tattoo/src" target='_blanck'>See Code</a>
+                </div>
+                <div className='pro-1'>
+                    <img className='proyectos' src={juego} alt="Juego multijugados" />
+                    <a href='https://github.com/JoseLMY/Juego-Multijugador' target='_black'>See Code</a>
+                </div>
+            </div>
         </>
     )
 }

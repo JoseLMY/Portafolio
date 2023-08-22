@@ -19,8 +19,8 @@ function SobreMi() {
                 <div className='acer-1-container'>
                     <div className='acer-1'>
                         <p> 
-                            Hey, i'm <b>Jose Luis Minota</b> - <strong><span> Front-End Developer</span></strong>. <br />
-                            I have Knowledge in web development, especially  in the <strong>Front-End</strong> part, managing technologies like <span> JavaScript, React.js, HTML5, CSS3 y Next.js.</span>
+                            Hey, i'm <b>Jose Luis Minota</b> - <strong><span className='spanSobreMi'> Front-End Developer</span></strong>. <br />
+                            I have Knowledge in web development, especially  in the <strong>Front-End</strong> part, managing technologies like <span className='spanSobreMi'> JavaScript, React.js, HTML5, CSS3 y Next.js.</span>
                         </p>
                     </div>
                 </div>
