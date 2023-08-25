@@ -4,7 +4,7 @@ function NotFound() {
     return(
         <>
             <div className='not-found'>
-                <h1>ERROR...</h1>
+                <h1>- ERROR</h1>
                 <div>
                     <p className='err-type'>
                         The page you are looking for does not exist :/

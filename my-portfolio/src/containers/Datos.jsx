@@ -16,9 +16,6 @@ function Datos() {
                         <a className='tecnologiasMobile'href="/tecnologias">Technologies.</a>
                     </li>
                     <li>
-                        <a className='hobbies'href="/hobbies">Hobbies.</a>
-                    </li>
-                    <li>
                         <a className='contacto'href="/contacto">Contact me.</a>
                     </li>
                 </ul>

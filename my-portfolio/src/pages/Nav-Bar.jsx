@@ -22,9 +22,6 @@ function NavBar(){
                             <a href="/tecnologias" className='technologies'>Technologies</a>
                         </li>
                         <li>
-                            <a href="/hobbies" className='hobbies'>Hobbies</a>
-                        </li>
-                        <li>
                             <a href="/contacto" className='contact-me'>Contact me</a>
                         </li>
                     </ul>

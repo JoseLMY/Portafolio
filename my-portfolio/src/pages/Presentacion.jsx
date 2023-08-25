@@ -15,12 +15,12 @@ function Presentacion () {
                         <p className='nombre'>JOSE LUIS MINOTA</p>
                         <h1 className='rol'>Front-End Developer</h1>
                     </div>
-                    <div className='redes'>
+                    <div className='redes network'>
                         <div className='linkedin'>
                             <img src={linkedin} alt="linkedin" width= "50px"/>
                             <a href="https://www.linkedin.com/in/jose-luis-minota-yacue-685741248/" target="_blank" rel="noreferrer">Linkedin</a>
                         </div>
-                        <div className='whatsApp'>
+                        <div className='whatsApp network'>
                             <img src={WhatsApp} alt="WhatsApp" width= "40px"/>
                             <a href="https://wa.me/573203043794" target="_blank" rel="noreferrer">WhatsApp</a>
                         </div>

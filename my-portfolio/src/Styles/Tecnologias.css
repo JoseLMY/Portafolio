@@ -70,6 +70,7 @@ span{
 .proyectos{
     width: 98%;
 }
+
 .pro-1 a, .pro-2 a, .pro-3 a, .pro-4 a{
     text-decoration: none;
     color: #95acce;
@@ -90,6 +91,8 @@ span{
     border: 1px solid #071ea3c9;
     box-shadow: 0 0 12px rgba(122, 50, 190, 0.959);
     background: #0f1329a6;  
+
+    transform: scale(1.1);
 }
 @media (max-width: 700px){
     .tecnologia{
@@ -109,5 +112,10 @@ span{
             transition: all 1s;
             color: aliceblue;
         }
+    }
+    .pro-1 a, .pro-2 a, .pro-3 a, .pro-4 a{
+        background: #0f1329a6; 
+        box-shadow: 0 0 8px rgba(119, 119, 119, 0.863);
+        width: 180px;
     }
 }

@@ -91,14 +91,14 @@
     justify-content: center;
 }
 .masCertificados a{
-    color: rgb(0, 38, 128);
+    color: rgb(66, 0, 189);
     text-decoration: none;
     transition: all 0.5s;
 }
 .masCertificados a:hover{
     color: rgb(60, 119, 255);
-    text-decoration: none;
     text-shadow: 1px 1px 8px rgba(36, 136, 207, 0.576);
+    text-decoration: none;
 }
 .tecnologo{
     margin-bottom: 32px;

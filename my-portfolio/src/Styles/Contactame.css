@@ -3,26 +3,45 @@ body{
 }
 .formContainer{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #565a6b19;
+}
+.headerFormContainer-pc{
+    margin-left: 32px;
+    width: 30%;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+.headerForm-pc{
+    text-align: center;
+    font-size: 90px;
+    width: 100%;
+    font-family: var(--font-sub-title);
+    letter-spacing: 4px;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
 }
 .form{
-    padding-top: 100px;
-    color: white;
+    color: aliceblue;
+    background-color: #565a6b19;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 520px;
+    width: 60%;
+    height: 100vh;
     padding: 16px;
     box-sizing: border-box;
-    border: 2px solid gray;
-    border-radius: 16px;
+    border-radius: 4px;
     overflow: hidden;
-    box-shadow: 1px 1px 32px rgba(67, 233, 255, 0.432);
+    box-shadow: 0 0 12px black;
 }
 .headerFormContainer{
-    display: flex;
+    display: none;
     justify-content: center;
     font-weight: 900;
 }
@@ -39,26 +58,29 @@ body{
     margin: 12px ;
 }
 #name, #email{
-    background-color: rgba(192, 192, 192, 0.856);
+    background-color: rgba(192, 192, 192, 0.089);
     border: none;
     outline: none;
     width: calc(100% - 32px);
     height: 32px;
-    border-radius: 16px;
+    border-radius: 4px;
     padding-left: 32px;
     margin-bottom: 12px;
     transition: all 0.5s;
+    color: aliceblue;
 }
 
 #name:focus, #email:focus, #message:focus{
-    box-shadow: 1px 1px 18px rgba(67, 233, 255, 0.432);
+    background-color: rgba(0, 32, 75, 0.089);
+    border: 1px solid rgba(240, 248, 255, 0.356);
 }
 #message{
     resize: none;
     outline: none;
-    background-color: rgba(192, 192, 192, 0.856);
+    background-color: rgba(192, 192, 192, 0.089);
+    color: aliceblue;
     border: none;
-    border-radius: 16px;
+    border-radius: 4px;
     padding: 16px 0 0 16px;
     margin-bottom: 12px;
     margin: 0 8px;
@@ -68,25 +90,30 @@ body{
 .bSubmitContainer{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .iSubmit{
+    position: absolute;
     width: 120px;
-    height: 32px;
+    height: 46px;
     margin-top: 16px;
     border: none;
-    background-color: rgba(101, 255, 216, 0.548);
-    border-radius: 8px;
+    background-color: rgba(160, 160, 160, 0.555);
+    border-radius: 4px;
     color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
     font-size: 18px;
     transition: all 0.5s;
 }
 .iSubmit:hover{
-    box-shadow: 1px 1px 16px rgba(101, 255, 234, 0.548);
+    transform: scale(1.3);
     cursor: pointer;
+    background-color: rgb(160, 160, 160);
+    color: black;
 }
 #trucazo{
     display: none;
-    /* opacity: 0; */
 }
 .p{
     color: red;
@@ -94,67 +121,53 @@ body{
     top: 200px;
 }
 
-/* .primaryContainerContact{
-    height: calc(100vh - 100px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
+@keyframes move {
+    0%{margin-top: 16px;}
+    50%{margin-top: 64px;}
+    100%{margin-top: 16px;}
 }
-.linkedinC{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Dosis', sans-serif;
-}
-.linkedinC a{
-    color: aliceblue;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 320px;
-    height: 90px;
-    border-radius: 16px;
-    transition: all 0.5s;
-    font-size: 60px;
-}
-.linkedinC a:hover{
-    color: rgb(0, 9, 61);
-    background-color: rgba(144, 255, 253, 0.678);
-    box-shadow: 1px 1px 32px rgba(147, 190, 207, 0.32);
 
-    transform: scale(1.08);
+@media (max-width: 720px){
+    .headerFormContainer-pc{
+        display: none;
+    }
+    .formContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+        height: 100vh;
+    }
+    .headerFormContainer{
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-family: var(--font-sub-title);
+        letter-spacing: 4px;
+    }
+    .form{
+        border: none;
+        width: 100vw;
+        height: 100vh;
+        font-family: var(--font-paragraph);
+        box-shadow: none;
+    }
+    .iSubmit{
+        max-width: 220px;
+        width: 80%;
+        height: 64px;
+        animation: move 8s infinite  linear;
+        background-color: rgba(57, 77, 94, 0.473);
+        border-radius: 4px;
+        color: rgb(168, 191, 211);
+        font-size: 26px;
+        border: 2px solid black;
+        box-shadow: 8px 8px 0 rgb(0, 0, 0);
+        transition: all 0.5s;
+    }
+    .iSubmit:hover{
+        transform: scale(1);
+        background-color: rgba(160, 160, 160, 0);
+        color: rgb(104, 185, 255);
+    }
 }
-.whatsAppC{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    font-family: 'Dosis', sans-serif;
-}
-.whatsAppC a{
-    color: aliceblue;
-    text-decoration: none;
-    width: 320px;
-    height: 90px;
-    font-size: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-    transition: all 0.5s;
-    margin-left: 30px;
-}
-.whatsAppC a:hover{
-    color: rgb(0, 61, 0);
-    background-color: rgba(144, 255, 144, 0.678);
-    box-shadow: 1px 1px 32px rgba(147, 207, 147, 0.32);
-
-    transform: scale(1.08);
-}
-.primaryContainerContact img{
-    width: 120px;
-} */

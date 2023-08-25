@@ -2,24 +2,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 420px;
-    height: 320px;
-    border: 1px solid rgb(255, 73, 73);
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
     position: absolute;
     top: 20%;
-    left: 34%;
-    color: rgba(255, 0, 0, 0.534);
-    border-radius: 16px;
-    padding: 16px;
-    box-sizing: border-box;
+    color: red;
     font-family: 'IBM Plex Mono', monospace;
-    box-shadow: 0 0 64px rgba(255, 0, 0, 0.411);
 }
 .not-found h1{
     margin: 0;
+    font-size: 64px;
     text-shadow: 0 0 12px rgba(255, 0, 0, 0.699);
 }
 .err-type{
     color: white;
     margin-left: 32px;
+}
+
+@media (max-width: 720px){
+    .not-found h1{
+        font-size: 40px;
+    }
 }
