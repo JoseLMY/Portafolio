@@ -58,20 +58,75 @@ span{
 .proyectosContainer{
     background-color: rgba(15, 15, 15, 0.568);
 }
-.pro-1, .pro-2, .pro-3, .pro-4{
+.pro-1, .pro-2, .pro-3, .pro-4, .pro-5{
     width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 32px 12px;
-    
+}
+.pro-EcommerceContainer{
+    width: 480px;
+    height: 360px;
+    position: relative;
+}
+.imagesContainer{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    overflow: hidden;
+    background-color: #95acce;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+.imagesContainer:hover{
+    transform: scale(1.1);
+    border-radius: 16px;
+}
+.sliderBody{
+    width: 100%;
+    height: 100%;
+    background-color: #2b314d;
+}
+.figureContainer{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagesProyect{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.usedTecnologiesContainer{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #000000be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+.usedTecnology{
+    width: 20px;
+    margin: 0;
+}
+.mysql{
+    width: 50px;
+    margin: 0;
+}
+.action{
+    position: absolute;
+    bottom: 0;
+    width: 98%;
 }
 .proyectos{
     width: 98%;
 }
 
-.pro-1 a, .pro-2 a, .pro-3 a, .pro-4 a{
+.pro-1 a, .pro-2 a, .pro-3 a, .pro-4 a, .pro-5 a{
     text-decoration: none;
     color: #95acce;
     font-size: 20px;
@@ -87,7 +142,7 @@ span{
     
     transition: all 0.5s;
 }
-.pro-1 a:hover, .pro-2 a:hover, .pro-3 a:hover, .pro-4 a:hover{
+.pro-1 a:hover, .pro-2 a:hover, .pro-3 a:hover, .pro-4 a:hover, .pro-5 a:hover{
     border: 1px solid #071ea3c9;
     box-shadow: 0 0 12px rgba(122, 50, 190, 0.959);
     background: #0f1329a6;  
@@ -117,5 +172,9 @@ span{
         background: #0f1329a6; 
         box-shadow: 0 0 8px rgba(119, 119, 119, 0.863);
         width: 180px;
+    }
+    .imagesContainer:hover{
+        transform: scale(1);
+        border-radius: 4px;
     }
 }
