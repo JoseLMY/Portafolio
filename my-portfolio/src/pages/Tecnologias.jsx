@@ -98,7 +98,7 @@ function Tecnologias() {
                 </div>
                 <div className='pro-3'>
                     <img className='proyectos' src={landingTattoo} alt="Landing page of tattoo's" />
-                    <a href='https://tattoo-qh38l6b1w-joselmy.vercel.app/' target='_blanck'>Test</a>
+                    <a href='https://tattoo-pied.vercel.app/' target='_blanck'>Test</a>
                     <a href="https://github.com/JoseLMY/internship-projects/tree/main/tattoo/src" target='_blanck'>See Code</a>
                 </div>
                 <div className='pro-1'>
